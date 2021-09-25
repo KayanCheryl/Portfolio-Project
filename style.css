@@ -1,15 +1,18 @@
 :root{
     --primary-color: #FED766;
-    --secondary-color:#7C99B4;
+    --secondary-color:white;
     --tertiary-color:#D5ACA9;
     --forth-color:#5B5750;
+    --fifth-color:#7C99B4;
 
 }
 body{
-    background-color:var(--primary-color);
+    background-color:#585D6B;
+}
+.navbar{
+    background-color: var(--tertiary-color);
 }
 .hero{
-    background-color: var(--primary-color);
     text-align: center;
     padding-top: 100px;
     padding-bottom: 200px;
@@ -17,7 +20,7 @@ body{
   
 }
 .hero h1{
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-family: amatic sc;
     font-weight: 700;
     font-size:150px;
@@ -27,7 +30,7 @@ body{
 }
 
 .hero h2{
-    color:var(--forth-color);
+    color:var(--secondary-color);
     font-family: cutive mono;
     font-size:25px;
     margin-bottom: 80px;
@@ -37,32 +40,32 @@ body{
 
 .contact-me-button{
     text-decoration: none;
-    color: var(--forth-color);
+    color: var(--secondary-color);
     background-color: var(--tertiary-color);
     padding: 20px 15px;
     border-radius: 7px;
     border-color:var(--secondary-color);
     font-family: cutive mono;
     font-size:18px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .contact-me-button:hover{
-    color:white
+    color:var(--forth-color);
 }
 
-.about-me-button{
+.myexperience-button{
     text-decoration: none;
-    color: var(--forth-color);
+    color: var(--secondary-color);
     background-color: var(--tertiary-color);
     padding: 20px 15px;
     border-radius: 7px;
     border-color:var(--secondary-color);
     font-family: cutive mono;
     font-size:18px;
-    padding-left: 25px;
-    padding-right: 25px;
 }
-.about-me-button:hover{
-    color:white;
+.myexperience-button:hover{
+    color:var(--forth-color);
 }
 
 @media (max-width: 768px){
@@ -74,9 +77,62 @@ body{
     }
     
     .contact-me-button{
-        font-size: 10px;
+        font-size: 12px;
     }
-    .about-me-button{
-        font-size:10px;
+    .myexperience-button{
+        font-size:12px;
     }
+}
+h3{
+    font-family: cutive mono;
+    font-size:40px;
+    color:var(--primary-color);
+    font-weight: bold;
+    margin:30px;
+}
+h4{
+    font-family: cutive mono;
+    font-size:30px;
+    color:var(--secondary-color);
+}
+p{
+    font-family: cutive mono;
+    font-size:20px;
+    color:var(--tertiary-color);
+}
+.qualitfication-img{
+    width:300px;
+    border-radius: 20px;
+    border: 5px solid var(--fifth-color) ;
+}
+
+.soap{
+    margin-bottom: 100px;
+}
+
+.candle{
+    margin-bottom: 100px;
+}
+
+.codingintro{
+    margin-bottom: 100px;
+}
+
+.frontenddevelopment{
+    margin-bottom:100px;
+}
+
+@media (max-width:768px){
+    .qualitfication-img{
+        display:none;
+    }
+    h3{
+        text-align: center;
+    }
+   h4{
+       text-align: center;
+   }
+   p{
+       text-align: center;
+   }
 }
