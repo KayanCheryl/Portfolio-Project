@@ -88,7 +88,7 @@ body {
     font-size: 12px;
   }
 }
-h3 {
+.qualification h3 {
   font-family: cutive mono;
   font-size: 40px;
   color: var(--primary-color);
@@ -97,12 +97,12 @@ h3 {
   text-align: center;
   margin-bottom: 50px;
 }
-h4 {
+.qualification h4 {
   font-family: cutive mono;
   font-size: 30px;
   color: var(--secondary-color);
 }
-p {
+.qualification p {
   font-family: cutive mono;
   font-size: 20px;
   color: var(--tertiary-color);
@@ -133,13 +133,42 @@ p {
   .qualitfication-img {
     display: none;
   }
-  h3 {
+  .qualification h3 {
     text-align: center;
   }
-  h4 {
+  .qualification h4 {
     text-align: center;
   }
-  p {
+  .qualification p {
     text-align: center;
   }
+}
+
+.aboutme {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  margin-top: 30px;
+}
+.aboutme h1 {
+  color: var(--primary-color);
+  font-family: amatic sc;
+  font-weight: 700;
+  font-size: 150px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.aboutme h2 {
+  color: var(--secondary-color);
+  font-family: cutive mono;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+
+.aboutme p {
+  font-family: cutive mono;
+  font-size: 20px;
+  color: var(--tertiary-color);
 }
