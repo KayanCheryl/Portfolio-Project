@@ -218,6 +218,24 @@ body {
   color: var(--tertiary-color);
 }
 
+.backtohomepage-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+  background-color: var(--tertiary-color);
+  padding: 20px 15px;
+  border-radius: 7px;
+  border-color: var(--secondary-color);
+  font-family: cutive mono;
+  font-size: 18px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.backtohomepage-button:hover {
+  color: var(--forth-color);
+}
+
 @media (max-width: 768px) {
   .experience {
     text-align: center;
@@ -267,4 +285,12 @@ body {
   .contactme {
     text-align: center;
   }
+}
+
+.back-to-homepage {
+  margin-top: 30px;
+}
+
+.back-to-homepage a {
+  color: var(--secondary-color);
 }
