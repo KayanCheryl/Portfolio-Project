@@ -43,7 +43,7 @@ body {
   margin-bottom: 80px;
 }
 
-.contact-me-button {
+.about-me-button {
   text-decoration: none;
   color: var(--secondary-color);
   background-color: var(--tertiary-color);
@@ -52,10 +52,10 @@ body {
   border-color: var(--secondary-color);
   font-family: cutive mono;
   font-size: 18px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
-.contact-me-button:hover {
+.about-me-button:hover {
   color: var(--forth-color);
 }
 
@@ -81,7 +81,7 @@ body {
     font-size: 15px;
   }
 
-  .contact-me-button {
+  .about-me-button {
     font-size: 12px;
   }
   .myexperience-button {
@@ -161,7 +161,7 @@ body {
   color: var(--secondary-color);
   font-family: cutive mono;
   font-size: 25px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .aboutme p {
@@ -171,7 +171,14 @@ body {
 }
 
 .selfie-img {
+  margin-top: 30px;
   width: 300px;
   border-radius: 20px;
   border: 5px solid var(--fifth-color);
+}
+
+@media (max-width: 768px) {
+  .aboutme {
+    text-align: center;
+  }
 }
