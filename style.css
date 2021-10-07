@@ -294,3 +294,43 @@ body {
 .back-to-homepage a {
   color: var(--secondary-color);
 }
+
+.footer {
+  margin-bottom: 50px;
+  background-color: var(--forth-color);
+  border-radius: 10px;
+}
+
+footer h5 {
+  text-align: center;
+  color: var(--primary-color);
+  font-family: amatic sc;
+  font-size: 50px;
+}
+footer .icon-link {
+  text-align: center;
+}
+
+footer .github-link {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer .instagram-link {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
